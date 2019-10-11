@@ -1,0 +1,89 @@
+html{
+    
+	background-color: black
+}
+
+body {
+	/*margin-left:12vw;*/
+	position: center;
+	color: white;
+}
+/*
+ svg {
+	width: 60vw;
+	background-color: thistle;
+}
+
+*/
+canvas {
+	
+	margin-left:12vw;
+	width: 60vw;
+	
+}
+
+
+.lemon {
+	width: 60vw;
+	background-color: thistle;
+}
+
+.grape {
+	width: 60vw;
+	background-color: thistle;
+}
+
+.topbanner {
+	font-family: 'Press Start 2P', cursive;
+	color:rgb(197, 241, 175);
+	text-align: center;
+	text-indent: center;
+}
+
+.sidenav {
+	height: 100%;
+	width: 12vw;
+	position: fixed;
+
+	padding-top:    12vw;
+	background-color: lavender; /*steelblue;*/
+	top: 0;
+	overflow-x: hidden;
+	display: block;
+	text-align: center;
+	margin-left:12vw;
+}
+
+.main {
+	font-family: 'Press Start 2P', cursive;
+	
+	padding: 0px 10px;
+}
+
+.scrollText{
+	font-family: 'Press Start 2P', cursive;
+	color: azure;
+	position:center;
+	margin-left:13vw;
+	width: 65vw;
+	font-size: 13px;
+	/*height:90px;*/
+	overflow:hidden ;
+	height:45px;
+	border-right:1px solid greenyellow;
+	animation:
+		typing 3.5s steps(100, end), 
+		blinky 1s step-end infinite; 
+	  
+}
+
+
+@keyframes typing{
+	from { width: 0 }
+	to { width: 100% }
+}
+
+@keyframes blinky {
+	from, to {border-color : transparent}
+	50% { border-color: greenyellow;}
+}
